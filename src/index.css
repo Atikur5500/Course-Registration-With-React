@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: JetBrains Mono;
+  word-spacing: -5px;
+  letter-spacing: -0.5px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  max-width: 1280px;
+  margin: 0 auto;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
