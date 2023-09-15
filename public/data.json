@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "title": "introduction to programming",
+        "description": "Learn the fundamentals of programming with this introductory course. No prior experience required.",
+        "price": 49.99,
+        "credit": 3,
+        "image": "https://i.ibb.co/K0hpwkQ/Rectangle-2.png",
+        "book_icon": "https://i.ibb.co/0jq44CL/Frame.png",
+        "credit_icon": "https://i.ibb.co/YhNQhdv/dollar-sign-1.png"
+    },
+    {
+        "id": 2,
+        "title": "web development basics",
+        "description": "Get started with web development and build your first website from scratch. No prior experience required.",
+        "price": 59.99,
+        "credit": 4,
+        "image": "https://i.ibb.co/R74pQ1z/Rectangle-2-1.png",
+        "book_icon": "https://i.ibb.co/0jq44CL/Frame.png",
+        "credit_icon": "https://i.ibb.co/YhNQhdv/dollar-sign-1.png"
+    },
+    {
+        "id": 3,
+        "title": "data analysis with Python",
+        "description": "Explore data analysis techniques using Python and popular libraries like Pandas and Matplotlib.",
+        "price": 69.99,
+        "credit": 5,
+        "image": "https://i.ibb.co/g6ShvJj/Rectangle-2-2.png",
+        "book_icon": "https://i.ibb.co/0jq44CL/Frame.png",
+        "credit_icon": "https://i.ibb.co/YhNQhdv/dollar-sign-1.png"
+    },
+    {
+        "id": 4,
+        "title": "mobile app development",
+        "description": "Learn how to develop mobile apps for both Android and iOS platforms.Master the art of graphic design",
+        "price": 79.99,
+        "credit": 6,
+        "image": "https://i.ibb.co/gmQLHBt/Rectangle-2-3.png",
+        "book_icon": "https://i.ibb.co/0jq44CL/Frame.png",
+        "credit_icon": "https://i.ibb.co/YhNQhdv/dollar-sign-1.png"
+    },
+    {
+        "id": 5,
+        "title": "machine learning fundamentals",
+        "description": "Discover the basics of machine learning and its applications in various fields.",
+        "price": 89.99,
+        "credit": 4,
+        "image": "https://i.ibb.co/gVMTH6f/Rectangle-2-4.png",
+        "book_icon": "https://i.ibb.co/0jq44CL/Frame.png",
+        "credit_icon": "https://i.ibb.co/YhNQhdv/dollar-sign-1.png"
+    },
+    {
+        "id": 6,
+        "title": "graphic design essentials",
+        "description": "Master the art of graphic design with this comprehensive course on design principles and software tools.",
+        "price": 69.99,
+        "credit": 5,
+        "image": "https://i.ibb.co/5sCyDRj/Rectangle-2-5.png",
+        "book_icon": "https://i.ibb.co/0jq44CL/Frame.png",
+        "credit_icon": "https://i.ibb.co/YhNQhdv/dollar-sign-1.png"
+    },
+    {
+        "id": 7,
+        "title": "financial planning and budgeting",
+        "description": "Learn how to manage your finances effectively and create a solid budget plan for your future.",
+        "price": 49.99,
+        "credit": 3,
+        "image": "https://i.ibb.co/gPHm7CS/Rectangle-2-6.png",
+        "book_icon": "https://i.ibb.co/0jq44CL/Frame.png",
+        "credit_icon": "https://i.ibb.co/YhNQhdv/dollar-sign-1.png"
+    },
+    {
+        "id": 8,
+        "title": "digital marketing strategies",
+        "description": "Explore digital marketing tactics and strategies to promote products and services online.",
+        "price": 59.99,
+        "credit": 4,
+        "image": "https://i.ibb.co/QbNGKcq/Rectangle-3.png",
+        "book_icon": "https://i.ibb.co/0jq44CL/Frame.png",
+        "credit_icon": "https://i.ibb.co/YhNQhdv/dollar-sign-1.png"
+    },
+    {
+        "id": 9,
+        "title": "creative writing workshop",
+        "description": "Hone your writing skills and unleash your creativity with this engaging workshop.",
+        "price": 39.99,
+        "credit": 2,
+        "image": "https://i.ibb.co/nCWcWSQ/Rectangle-3-1.png",
+        "book_icon": "https://i.ibb.co/0jq44CL/Frame.png",
+        "credit_icon": "https://i.ibb.co/YhNQhdv/dollar-sign-1.png"
+    }
+]
