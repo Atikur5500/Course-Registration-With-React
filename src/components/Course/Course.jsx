@@ -1,6 +1,5 @@
-const Course = ({course}) => {
-    const {title, price, credit, description, image} = course;
-    console.log(course)
+const Course = ({ course, handleCourseName}) => {
+    const { title, price, credit, description, image} = course;
     return (
        <div>
             <div className="card shadow-md border h-full rounded-sm">
@@ -13,7 +12,7 @@ const Course = ({course}) => {
                         <p>Credit:{credit}hr</p>
                     </div>
                     <div className="card-actions">
-                        <button className="btn btn-primary rounded-sm w-full">Select</button>
+                        <button onClick={() => handleCourseName(course.title)} className="btn btn-primary rounded-sm w-full">Select</button>
                     </div>
                 </div>
             </div>
