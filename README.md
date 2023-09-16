@@ -8,7 +8,7 @@
 # Feature 03
 - Credit Calculation: The project calculates and displays the total credit hours selected by the user and the remaining credit hours.
 
-# Discuss how you managed the state in your assignment project. ans me two line
+# Discuss how you managed the state in your assignment project.
 
 In the assignment project, I managed state using React's useState hook, which allowed me to create and update state variables such as courses, courseName, totalCredit, remaining, and control. These state variables were used to track course data, selected courses, credit calculations, and component control within the application.
 
