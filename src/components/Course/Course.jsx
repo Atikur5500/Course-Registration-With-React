@@ -1,5 +1,7 @@
 const Course = ({ course, handleCourseName}) => {
+    console.log(course)
     const { title, price, credit, description, image} = course;
+
     return (
        <div>
             <div className="card shadow-md border h-full rounded-sm">
@@ -21,3 +23,5 @@ const Course = ({ course, handleCourseName}) => {
 };
 
 export default Course;
+
+
