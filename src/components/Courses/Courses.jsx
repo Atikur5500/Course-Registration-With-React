@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Course from "../Course/Course";
 
+
 const Courses = () => {
     const [courses, SetCourses] = useState([]);
     const [courseName, setCourseName] = useState([])
@@ -21,7 +22,7 @@ const Courses = () => {
         const isExist = courseName.includes(course);
         let totalCredit = course?.credit;
         if (isExist) {
-            return alert('Already Selected')
+            return alert('Already Selected') 
         } else {
             setCourseName([...courseName, course])
             courseName.forEach((item) => {
@@ -40,16 +41,18 @@ const Courses = () => {
     return (
         <div className="md:flex">
             {/* Card Item Part */}
-            <div className=" md:w-3/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 m-5 p-5 md:p-0">
-                {
-                    courses.map(course => <Course key={course.id} course={course} handleCourseName={handleCourseName} totalCredit={totalCredit} remaining={remaining}></Course>)
-                }
-            </div>
+            
+                <div className=" md:w-3/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 m-5 p-5 md:p-0">
+                    {
+                        courses.map(course => <Course key={course.id} course={course} handleCourseName={handleCourseName} totalCredit={totalCredit} remaining={remaining}></Course>)
+                    }
+                </div>
+            
             
             {/* Calculation Part */}
             <div className="border md:w-1/4 mt-5 p-5 space-y-5">
                 <div>
-                    <h2 className="text-lg font-semibold text-purple-700">Credit Hours Remaining {totalCredit} hr</h2>
+                    <h2 className="text-lg font-semibold text-purple-700">Credit Hours Remaining 20 hr</h2>
                 </div>
                 <hr />
                 <div className="">
