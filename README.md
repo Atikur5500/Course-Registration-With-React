@@ -1,8 +1,14 @@
-# React + Vite
+# My Project Feature
+# Feature 01
+- Displaying Courses: The project displays a list of courses, presumably fetched from a JSON file ("data.json"). The courses are displayed in a grid layout with multiple columns.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Feature 02
+- Selecting Courses: Users can select courses by clicking on them. The selected courses are tracked in the courseName state array.
 
-Currently, two official plugins are available:
+# Feature 03
+- Credit Calculation: The project calculates and displays the total credit hours selected by the user and the remaining credit hours.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Discuss how you managed the state in your assignment project. ans me two line
+
+In the assignment project, I managed state using React's useState hook, which allowed me to create and update state variables such as courses, courseName, totalCredit, remaining, and control. These state variables were used to track course data, selected courses, credit calculations, and component control within the application.
+
